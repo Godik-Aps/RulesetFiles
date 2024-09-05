@@ -1,22 +1,18 @@
 {
     "name": "Godik Base Ruleset",
     "description": "Ruleset for Godik BC projects",    
-    "includedRuleSets": [
+    "includedRuleSets": [        
         {
-            "action": "Default",
-            "path": "base.ruleset.json"
+            "action": "Default",            
+            "path": "https://raw.githubusercontent.com/Godik-Aps/RulesetFiles/main/CodeCopIgnore.ruleset.json"
         },
         {
             "action": "Default",
-            "path": "CodeCopIgnore.ruleset.json"
+            "path": "https://raw.githubusercontent.com/Godik-Aps/RulesetFiles/main/LinterCopIgnore.ruleset.json"
         },
         {
             "action": "Default",
-            "path": "LinterCopIgnore.ruleset.json"
-        },
-        {
-            "action": "Default",
-            "path": "ui.ruleset.json"
+            "path": "https://raw.githubusercontent.com/Godik-Aps/RulesetFiles/main/ui.ruleset.json"
         }
     ],
     "rules": [        
@@ -32,7 +28,7 @@
         },
         {
             "id": "AA0021",
-            "action": "Error",
+            "action": "Warning",
             "justification": "Variable declarations should be ordered by type."
         },
         {
