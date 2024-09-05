@@ -1,0 +1,241 @@
+{
+    "name": "Ignore CodeCop",
+    "description": "Suppressing some BusinessCentral.CodeCop rules",    
+    "rules": [        
+        {
+            "id": "AA0018",
+            "action": "None",
+            "justification": "The END, IF, REPEAT, UNTIL, FOR, WHILE, and CASE statement should always start a line."
+        },
+        {
+            "id": "AA0072",
+            "action": "None",
+            "justification": "The name of variables and parameters must be suffixed with the type or object name."
+        },        
+        {
+            "id": "AA0073",
+            "action": "None",
+            "justification": "The name of temporary variable must be prefixed with Temp."
+        },        
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "TextConst and Label variable names should have an approved suffix."
+        },
+        {
+            "id": "AA0100",
+            "action": "None",
+            "justification": "Do not have identifiers with quotes in the name."
+        },
+        {
+            "id": "AA0101",
+            "action": "None",
+            "justification": "Use camel case property values in pages of type API."
+        },        
+        {
+            "id": "AA0102",
+            "action": "None",
+            "justification": "Use camel case name for field controls in pages of type API."
+        },    
+        {
+            "id": "AA0103",
+            "action": "Error",
+            "justification": "For queries of the type API the value of properties APIPublisher, APIGroup, EntityName, and EntitySetName value should be camel-cased to follow the Microsoft REST API Guidelines."
+        },
+        {
+            "id": "AA0131",
+            "action": "None",
+            "justification": "String parameters must match placeholders. Remember to specify all string parameters to match placeholders."
+        },
+        {
+            "id": "AA0136",
+            "action": "None",
+            "justification": "Do not write code that will never be hit."
+        },        
+        {
+            "id": "AA0137",
+            "action": "None",
+            "justification": "Do not declare variables that are unused."
+        },
+        {
+            "id": "AA0139",
+            "action": "None",
+            "justification": "Do not assign a text to a target with smaller size."
+        },
+        {
+            "id": "AA0150",
+            "action": "None",
+            "justification": "Do not declare parameters by reference if their values are never changed."
+        },
+        {
+            "id": "AA0175",
+            "action": "None",
+            "justification": "Do not write code that will never be hit."
+        },
+        {
+            "id": "AA0189",
+            "action": "None",
+            "justification": "ApplicationArea has invalid value. Only use a correct values of ApplicationArea."
+        },
+        {
+            "id": "AA0194",
+            "action": "None",
+            "justification": "Only write actions that have an effect."
+        },
+        {
+            "id": "AA0198",
+            "action": "None",
+            "justification": "Do not use identical names for local and global variables."
+        },
+        {
+            "id": "AA0199",
+            "action": "None",
+            "justification": "The order of the specified ApplicationArea is incorrect."
+        },
+        {
+            "id": "AA0201",
+            "action": "None",
+            "justification": "When ApplicationArea is set to 'Basic', you must also specify 'Suite'."
+        },        
+        {
+            "id": "AA0202",
+            "action": "None",
+            "justification": "To avoid confusion, do not give local variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0203",
+            "action": "None",
+            "justification": "To avoid confusion, do not give methods the same name as fields or actions in the same scope."
+        },
+        {
+            "id": "AA0205",
+            "action": "None",
+            "justification": "Variables must be initialized before usage."
+        },        
+        {
+            "id": "AA0206",
+            "action": "None",
+            "justification": "The value assigned to a variable must be used."
+        },
+        {
+            "id": "AA0211",
+            "action": "Error",
+            "justification": "CalcFields should only be used for FlowFields or Blob fields"
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "Follow the style guide about the best practices for naming."
+        },
+        {
+            "id": "AA0217",
+            "action": "None",
+            "justification": "Use a text constant or label for format string in StrSubstNo."
+        },        
+        {
+            "id": "AA0218",
+            "action": "Hidden",
+            "justification": "You must write a tooltip in the Tooltip property for all controls of type Action and Field that exist on page objects."
+        },
+        {
+            "id": "AA0221",
+            "action": "None",
+            "justification": "You must specify a OptionCaption property for all fields which source expressions is not a table field."
+        },
+        {
+            "id": "AA0224",
+            "action": "None",
+            "justification": "The count of option captions specified in the OptionCaption property is wrong."
+        },        
+        {
+            "id": "AA0225",
+            "action": "None",
+            "justification": "You must specify a caption in the Caption property for Fields that exist on page objects."
+        },        
+        {
+            "id": "AA0228",
+            "action": "None",
+            "justification": "The local method must be used; otherwise removed."
+        },                        
+        {
+            "id": "AA0231",
+            "action": "None",
+            "justification": "StrSubstNo or string concatenation must not be used as a parameter in the Error method."
+        },
+        {
+            "id": "AA0232",
+            "action": "None",
+            "justification": "The FlowField of a table should be indexed."
+        },
+        {
+            "id": "AA0233",
+            "action": "None",
+            "justification": "Use Get(), FindFirst() and FindLast() without Next() method"
+        },
+        {
+            "id": "AA0240",
+            "action": "None",
+            "justification": "Email and Phone No must not be present in any part of the source code."
+        },
+        {
+            "id": "AA0241",
+            "action": "None",
+            "justification": "Use all lowercase letters for reserved language keywords."
+        },                
+        {
+            "id": "AA0242", 
+            "action": "None",
+            "justification": "Limit JIT loads by selecting all fields for load."
+        },
+        {
+            "id": "AA0245",
+            "action": "None",
+            "justification": "To avoid confusion, do not give parameters the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0462",
+            "action": "None",
+            "justification": "The CalcDate should only be used with DataFormula variables. Alternatively the string should be enclosed using the <> symbols."
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Placeholders should have a comment explaining their content."
+        },        
+        {
+            "id": "AL0254",
+            "action": "Error",
+            "justification": "Sorting field '{0}' should be part of the keys for table '{1}'."
+        },
+        {
+            "id": "AL0432",
+            "action": "None",
+            "justification": "Marked for removal. The referenced object will become obsolete."
+        },
+        {
+            "id": "AL0615",
+            "action": "Error",
+            "justification": "Field '{0}' is not specified as a source expression on page '{1}'. All fields specified in ODataKeyFields must be used as the source expression in a page control."
+        },
+        {
+            "id": "AW0006",
+            "action": "None",
+            "justification": "Pages and reports should use the UsageCategory and ApplicationArea properties to be searchable."
+        },
+        {
+            "id": "AA0204",
+            "action": "None",
+            "justification": "To avoid confusion, do not give global variables the same name as fields, methods, or actions in the same scope."
+        },
+        {
+            "id": "AA0244",
+            "action": "None",
+            "justification": "Do not use identical names for parameters and global variables."
+        },
+        {
+            "id": "AW0011",
+            "action": "None",
+            "justification": "Add PromotedOnly=true to some or all promoted actions to avoid identical actions from appearing in both the promoted and default sections of the command bar."
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "name": "Godik Base Ruleset",
+    "description": "Ruleset for Godik BC projects",    
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "base.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "CodeCopIgnore.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "LinterCopIgnore.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "ui.ruleset.json"
+        }
+    ],
+    "rules": [        
+        {
+            "id": "AA0005",
+            "action": "Warning",
+            "justification": "Handle later - Only use BEGIN..END to enclose compound statements."
+        },                
+        {
+            "id": "AA0008",
+            "action": "Warning",
+            "justification": "You must specify open and close parenthesis"
+        },
+        {
+            "id": "AA0021",
+            "action": "Error",
+            "justification": "Variable declarations should be ordered by type."
+        },
+        {
+            "id": "AA0022",
+            "action": "None",
+            "justification": "Substitute the IF THEN ELSE structure with a CASE."
+        },        
+        {
+            "id": "AA0073",
+            "action": "Error",
+            "justification": "The name of temporary variable 'NotificationContext' must be prefixed with Temp."
+        },
+        {
+            "id": "AA0181",
+            "action": "Warning",
+            "justification": "The FindSet() or Find() methods must be used only in connection with the Next() method"
+        },
+        {
+            "id": "AA0201",
+            "action": "Error",
+            "justification": "Value 'Basic' found on control Control Code. When ApplicationArea is set to 'Basic', you must also specify 'Suite'."
+        },
+        {
+            "id": "AA0210",
+            "action": "None",
+            "justification": "Avoid non-indexed fields into filtering"
+        },
+        {
+            "id": "LC0020",
+            "action": "Error",
+            "justification": "ApplicationArea"
+        },
+        {
+            "id": "LC0039",
+            "action": "None",
+            "justification": "The given argument has a different type from the one expected."
+        },
+        {
+            "id": "PTE0023",
+            "action": "None",
+            "justification": "The enum ordinal value shoul be within the allowed range and outside the range allocated to AppSource extensions."
+        },
+        {
+            "id": "AA0470",
+            "action": "None",
+            "justification": "Variable 'Text001' with placeholders should have a comment explaining their content."
+        },
+        {
+            "id": "AW0005",
+            "action": "Error",
+            "justification": "Actions should use the Image property."
+        }        
+    ]
+}

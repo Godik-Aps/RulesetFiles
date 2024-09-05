@@ -1,0 +1,21 @@
+{
+    "name": "UI",
+    "description": "UI rules",
+    "rules": [
+        {
+            "id": "AW0004",
+            "action": "None",
+            "justification": "A Blob cannot be used as a source expression for a page field."
+        },
+        {
+            "id": "AW0008",
+            "action": "None",
+            "justification": "The Web client only supports displaying Repeater controls in pages of type List, ListPart, and Worksheet."
+        },
+        {
+            "id": "AW0009",
+            "action": "None",
+            "justification": "Using a Blob with subtype Bitmap on a page field is deprecated. Instead use the Media/MediaSet data types."
+        }
+    ]
+}
