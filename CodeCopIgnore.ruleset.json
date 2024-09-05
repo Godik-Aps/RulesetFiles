@@ -134,7 +134,7 @@
         },        
         {
             "id": "AA0218",
-            "action": "Hidden",
+            "action": "None",
             "justification": "You must write a tooltip in the Tooltip property for all controls of type Action and Field that exist on page objects."
         },
         {
