@@ -78,7 +78,7 @@
         },
         {
             "id": "AW0005",
-            "action": "Error",
+            "action": "Warning",
             "justification": "Actions should use the Image property."
         }        
     ]
