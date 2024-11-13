@@ -58,7 +58,7 @@
         },
         {
             "id": "LC0020",
-            "action": "Error",
+            "action": "Warning",
             "justification": "ApplicationArea"
         },
         {
