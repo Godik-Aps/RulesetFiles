@@ -251,6 +251,11 @@
             "id": "LC0065",
             "action": "None",
             "justification": "Ensures that event subscriber methods use 'var' keyword for parameters as defined by event publisher."
+        },
+        {
+            "id": "LC0068",
+            "action": "None",
+            "justification": "The current object is missing permission rimd for object"
         }
     ]
 }
