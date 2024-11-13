@@ -4,7 +4,7 @@
     "rules": [
         {
             "id": "LC0000",
-            "action": "Error",
+            "action": "Warning",
             "justification": "There was an error in an other Rule"
         },
         {
@@ -99,7 +99,7 @@
         },
         {
             "id": "LC0026",
-            "action": "Error",
+            "action": "Warning",
             "justification": "ToolTip must end with a dot."
         },
         {
