@@ -33,7 +33,7 @@
         },
         {
             "id": "AA0022",
-            "action": "None",
+            "action": "Warning",
             "justification": "Substitute the IF THEN ELSE structure with a CASE."
         },        
         {
@@ -53,7 +53,7 @@
         },
         {
             "id": "AA0210",
-            "action": "None",
+            "action": "Warning",
             "justification": "Avoid non-indexed fields into filtering"
         },
         {
@@ -63,17 +63,17 @@
         },
         {
             "id": "LC0039",
-            "action": "None",
+            "action": "Warning",
             "justification": "The given argument has a different type from the one expected."
         },
         {
             "id": "PTE0023",
-            "action": "None",
+            "action": "Warning",
             "justification": "The enum ordinal value shoul be within the allowed range and outside the range allocated to AppSource extensions."
         },
         {
             "id": "AA0470",
-            "action": "None",
+            "action": "Warning",
             "justification": "Variable 'Text001' with placeholders should have a comment explaining their content."
         },
         {
