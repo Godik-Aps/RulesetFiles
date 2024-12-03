@@ -24,7 +24,7 @@
         },
         {
             "id": "LC0004",
-            "action": "None",
+            "action": "Warning",
             "justification": "DrillDownPageId and LookupPageId must be filled."
         },
         {
@@ -34,7 +34,7 @@
         },
         {
             "id": "LC0010",
-            "action": "None",
+            "action": "Warning",
             "justification": "Cyclomatic Complexity."
         },
         {
