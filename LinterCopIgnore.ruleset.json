@@ -14,7 +14,7 @@
         },        
         {
             "id": "LC0002",
-            "action": "None",
+            "action": "Warning",
             "justification": "Any Commit(); needs a code comment"
         },
         {
@@ -26,12 +26,7 @@
             "id": "LC0004",
             "action": "Warning",
             "justification": "DrillDownPageId and LookupPageId must be filled."
-        },
-        {
-            "id": "LC0005",
-            "action": "Hidden",
-            "justification": "The casing of variable/method usage must align with the definition."
-        },
+        },        
         {
             "id": "LC0010",
             "action": "Warning",
@@ -39,62 +34,27 @@
         },
         {
             "id": "LC0012",
-            "action": "None",
+            "action": "Warning",
             "justification": "Using hardcoded IDs in functions like Codeunit.Run() is not allowed"
         },
         {
             "id": "LC0013",
-            "action": "None",
+            "action": "Warning",
             "justification": "NotBlank on single field PKs"
         },
         {
-            "id": "LC0014",
-            "action": "None",
-            "justification": "The Caption of permissionset objects should not exceed the maximum length."
-        },
-        {
             "id": "LC0015",
-            "action": "None",
+            "action": "Warning",
             "justification": "All application objects should be covered by at least one permission set in the extension."
         },
         {
-            "id": "LC0016",
-            "action": "None",
-            "justification": "Check for missing Captions"
-        },
-        {
-            "id": "LC0017",
-            "action": "None",
-            "justification": "Write to FlowFields should be explained by a comment."
-        },
-        {
             "id": "LC0018",
-            "action": "None",
+            "action": "Warning",
             "justification": "Events in internal codeunits are not accessible to extensions and should therefore be avoided."
         },
         {
-            "id": "LC0019",
-            "action": "None",
-            "justification": "If Data Classification is set on the Table. Fields do not need the same classification."
-        },
-        {
-            "id": "LC0020",
-            "action": "None",
-            "justification": "If Application Area is set on the Page. Controls do not need the same classification."
-        },
-        {
-            "id": "LC0021",
-            "action": "None",
-            "justification": "Confirm() must be implemented through the Confirm Management codeunit from the System Application."
-        },
-        {
-            "id": "LC0024",
-            "action": "None",
-            "justification": "Procedure declaration should not end with semicolon."
-        },
-        {
             "id": "LC0025",
-            "action": "None",
+            "action": "Warning",
             "justification": "Procedure must be either local, internal or define a documentation comment."
         },
         {
@@ -106,42 +66,7 @@
             "id": "LC0027",
             "action": "None",
             "justification": "Utilize the Page Management codeunit for launching page."
-        },
-        {
-            "id": "LC0028",
-            "action": "None",
-            "justification": "Event subscriber arguments now use identifier syntax instead of string literals."
-        },
-        {
-            "id": "LC0029",
-            "action": "None",
-            "justification": "Use CompareDateTime method in Type Helper codeunit for DateTime variable comparisons."
-        },
-        {
-            "id": "LC0030",
-            "action": "None",
-            "justification": "Set Access property to Internal for Install/Upgrade codeunits"
-        },
-        {
-            "id": "LC0031",
-            "action": "None",
-            "justification": "Set ReadIsolation property instead of LockTable() method."
-        },
-        {
-            "id": "LC0032",
-            "action": "None",
-            "justification": "Clear(All) does not affect or change values for global variables in single instance codeunits."
-        },
-        {
-            "id": "LC0033",
-            "action": "None",
-            "justification": "The specified runtime version in app.json is falling behind."
-        },
-        {
-            "id": "LC0034",
-            "action": "None",
-            "justification": "The Caption of permissionset objects should not exceed the maximum length."
-        },        
+        },                        
         {
             "id": "LC0035",
             "action": "None",
@@ -151,20 +76,10 @@
             "id": "LC0036",
             "action": "None",
             "justification": "ToolTip must start with the verb Specifies."
-        },
-        {
-            "id": "LC0038",
-            "action": "None",
-            "justification": "Try to not exceed 200 characters (including spaces)."
-        },
-        {
-            "id": "LC0039",
-            "action": "None",
-            "justification": "The given argument has a different type from the one expected."
-        },
+        },        
         {
             "id": "LC0040",
-            "action": "None",
+            "action": "Warning",
             "justification": "Explicitly set the RunTrigger parameter on build-in methods."
         },
         {
@@ -173,88 +88,33 @@
             "justification": "Empty Captions should be Locked."
         },
         {
-            "id": "LC0044",
-            "action": "None",
-            "justification": "Tables coupled with TransferFields must have matching fields."
-        },
-        {
             "id": "LC0045",
-            "action": "None",
+            "action": "Warning",
             "justification": "Zero (0) Enum value should be reserved for Empty Value."
         },
         {
-            "id": "LC0046",
-            "action": "None",
-            "justification": "Label with suffix Tok must be locked."
-        },
-        {
-            "id": "LC0047",
-            "action": "None",
-            "justification": "Locked Label must have a suffix Tok."
-        },        
-        {
-            "id" : "LC0048",
-            "action": "None",
-            "justification": "Use Error with a ErrorInfo or Label variable to improve telemetry details."
-        },
-        {
-            "id": "LC0051",
-            "action": "None",
-            "justification": "Do not assign a text to a target with smaller size."
-        },
-        {
-            "id": "LC0052",
-            "action": "None",
-            "justification": "The internal method is declared but never used."
-        },        
-        {
-            "id": "LC0053",
-            "action": "None",
-            "justification": "The internal method is only used in the object in which it is declared. Consider making the procedure local."
-        },        
-        {
-            "id": "LC0054",
-            "action": "None",
-            "justification": "Interface name must start with the capital 'I' without any spaces following it."
-        },
-        {
             "id": "LC0055",
-            "action": "None",
+            "action": "Warning",
             "justification": "The suffix Tok is meant to be used when the value of the label matches the name."
-        },
-        {
-            "id": "LC0058",
-            "action": "None",
-            "justification": "PageVariable.SetRecord(): You cannot use a temporary record for the Record parameter."
-        },
-        {
-            "id": "LC0060",
-            "action": "None",
-            "justification": "The ApplicationArea property is not applicable to API pages."
         },
         {
             "id": "LC0061",
             "action": "Error",
             "justification": "Pages of type API must have the ODataKeyFields property set to the SystemId field."
-        },
-        {
-            "id": "LC0062",
-            "action": "None",
-            "justification": "Mandatory field is missing on API page."
-        },
+        },        
         {
             "id": "LC0063",
-            "action": "None",
+            "action": "Warning",
             "justification": "Consider naming field with a more descriptive name"
         },
         {
             "id": "LC0065",
-            "action": "None",
+            "action": "Warning",
             "justification": "Ensures that event subscriber methods use 'var' keyword for parameters as defined by event publisher."
         },
         {
             "id": "LC0068",
-            "action": "None",
+            "action": "Warning",
             "justification": "The current object is missing permission rimd for object"
         }
     ]
