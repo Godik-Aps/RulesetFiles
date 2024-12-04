@@ -21,22 +21,7 @@
             "id": "AA0074",
             "action": "None",
             "justification": "TextConst and Label variable names should have an approved suffix."
-        },
-        {
-            "id": "AA0100",
-            "action": "None",
-            "justification": "Do not have identifiers with quotes in the name."
-        },
-        {
-            "id": "AA0101",
-            "action": "None",
-            "justification": "Use camel case property values in pages of type API."
-        },        
-        {
-            "id": "AA0102",
-            "action": "None",
-            "justification": "Use camel case name for field controls in pages of type API."
-        },    
+        },               
         {
             "id": "AA0103",
             "action": "Error",
@@ -44,22 +29,22 @@
         },
         {
             "id": "AA0131",
-            "action": "None",
+            "action": "Warning",
             "justification": "String parameters must match placeholders. Remember to specify all string parameters to match placeholders."
         },
         {
             "id": "AA0136",
-            "action": "None",
+            "action": "Warning",
             "justification": "Do not write code that will never be hit."
         },        
         {
             "id": "AA0137",
-            "action": "None",
+            "action": "Warning",
             "justification": "Do not declare variables that are unused."
         },
         {
             "id": "AA0139",
-            "action": "None",
+            "action": "Warning",
             "justification": "Do not assign a text to a target with smaller size."
         },
         {
@@ -68,25 +53,15 @@
             "justification": "Do not declare parameters by reference if their values are never changed."
         },
         {
-            "id": "AA0175",
-            "action": "None",
-            "justification": "Do not write code that will never be hit."
-        },
-        {
             "id": "AA0189",
-            "action": "None",
+            "action": "Warning",
             "justification": "ApplicationArea has invalid value. Only use a correct values of ApplicationArea."
         },
         {
             "id": "AA0194",
-            "action": "None",
+            "action": "Warning",
             "justification": "Only write actions that have an effect."
-        },
-        {
-            "id": "AA0198",
-            "action": "None",
-            "justification": "Do not use identical names for local and global variables."
-        },
+        },       
         {
             "id": "AA0199",
             "action": "None",
@@ -99,17 +74,17 @@
         },        
         {
             "id": "AA0202",
-            "action": "None",
+            "action": "Warning",
             "justification": "To avoid confusion, do not give local variables the same name as fields, methods, or actions in the same scope."
         },
         {
             "id": "AA0203",
-            "action": "None",
+            "action": "Warning",
             "justification": "To avoid confusion, do not give methods the same name as fields or actions in the same scope."
         },
         {
             "id": "AA0205",
-            "action": "None",
+            "action": "Warning",
             "justification": "Variables must be initialized before usage."
         },        
         {
@@ -129,7 +104,7 @@
         },
         {
             "id": "AA0217",
-            "action": "None",
+            "action": "Warning",
             "justification": "Use a text constant or label for format string in StrSubstNo."
         },        
         {
@@ -154,7 +129,7 @@
         },        
         {
             "id": "AA0228",
-            "action": "None",
+            "action": "Warning",
             "justification": "The local method must be used; otherwise removed."
         },                        
         {
@@ -169,7 +144,7 @@
         },
         {
             "id": "AA0233",
-            "action": "None",
+            "action": "Warning",
             "justification": "Use Get(), FindFirst() and FindLast() without Next() method"
         },
         {
@@ -179,17 +154,17 @@
         },
         {
             "id": "AA0241",
-            "action": "None",
+            "action": "Warning",
             "justification": "Use all lowercase letters for reserved language keywords."
         },                
         {
             "id": "AA0242", 
-            "action": "None",
+            "action": "Warning",
             "justification": "Limit JIT loads by selecting all fields for load."
         },
         {
             "id": "AA0245",
-            "action": "None",
+            "action": "Warning",
             "justification": "To avoid confusion, do not give parameters the same name as fields, methods, or actions in the same scope."
         },
         {
@@ -224,12 +199,12 @@
         },
         {
             "id": "AA0204",
-            "action": "None",
+            "action": "Warning",
             "justification": "To avoid confusion, do not give global variables the same name as fields, methods, or actions in the same scope."
         },
         {
             "id": "AA0244",
-            "action": "None",
+            "action": "Warning",
             "justification": "Do not use identical names for parameters and global variables."
         },
         {
