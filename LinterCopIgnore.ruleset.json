@@ -114,7 +114,7 @@
         },
         {
             "id": "LC0068",
-            "action": "Warning",
+            "action": "None",
             "justification": "The current object is missing permission rimd for object"
         }
     ]
