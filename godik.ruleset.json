@@ -1,0 +1,11 @@
+{
+    "name": "Godik rules",
+    "description": "Rules that must be followed at Godik",    
+    "rules": [        
+        {
+            "id": "AL0223",
+            "action": "Error",
+            "justification": "The Property 'OptimizeForTextSearch' can only be used if the property 'FieldClass' is set to 'Normal'."
+        }
+    ]
+}
