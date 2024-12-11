@@ -13,6 +13,10 @@
         {
             "action": "Default",
             "path": "https://raw.githubusercontent.com/Godik-Aps/RulesetFiles/main/ui.ruleset.json"
+        },
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/Godik-Aps/RulesetFiles/main/godik.ruleset.json"
         }
     ],
     "rules": [        
